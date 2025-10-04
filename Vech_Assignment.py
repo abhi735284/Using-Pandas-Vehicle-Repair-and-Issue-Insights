@@ -11,7 +11,7 @@ from langdetect import detect
 from deep_translator import GoogleTranslator
 
 # 1. Load dataset
-file_path = r"D:\Axion_Ray Assignment\DA -Task 2..xlsx"   
+file_path = r"xlsfile"   
 df = pd.read_excel(file_path, sheet_name="Sheet1")
 print("Original Shape:", df.shape)
 
@@ -202,3 +202,4 @@ if "LBRCOST" in df.columns and "DEALER_NAME" in df.columns:
     plt.show()
 
 print("All plots generated and saved in 'plots_task2' folder.")
+
