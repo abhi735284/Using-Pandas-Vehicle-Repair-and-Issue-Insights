@@ -22,9 +22,6 @@ This project analyzes vehicle repair data to extract issue categories, identify 
 - **Matplotlib**
 - **LangDetect**, **Deep Translator**
 
-## Technologies Used
-Python | Pandas | NumPy | Matplotlib | LangDetect | Deep Translator
-
 ## How to Run
 1. Place your dataset inside the /data folder.
 2. Update the file path in Vech_Assignment.py.
